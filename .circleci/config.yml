@@ -38,5 +38,5 @@ jobs:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
               ssh -o StrictHostKeyChecking=no circleci@${H4I_SERVER_IP} 'rm -rf /var/www/hack4impactbu.com/html/'
-              scp -o StrictHostKeyChecking=no -r ~ circleci@${H4I_SERVER_IP}:/var/www/hack4impactbu.com/html/
+              scp -o StrictHostKeyChecking=no -r ~/BUH4Isite circleci@${H4I_SERVER_IP}:/var/www/hack4impactbu.com/html/
             fi
