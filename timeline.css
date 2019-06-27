@@ -1,3 +1,10 @@
+/*
+* team page
+*/
+
+.image {
+  border-radius: 50%;
+}
 
 .timeline{
   --uiTimelineMainColor: var(--timelineMainColor, #222);
