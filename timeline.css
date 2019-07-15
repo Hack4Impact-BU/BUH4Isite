@@ -2,6 +2,17 @@
 * team page
 */
 
+.image-format {
+  width:200px;
+  height:200px; 
+  object-fit:cover;
+}
+.centered {
+  text-align: center;
+  margin-left: 30;
+  margin-right: 30;
+}
+
 .image {
   border-radius: 50%;
 }

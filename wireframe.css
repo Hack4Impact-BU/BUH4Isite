@@ -522,6 +522,11 @@ pre {
   margin-right: -15px;
   margin-left: -15px; }
 
+[class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
 .no-gutters {
   margin-right: 0;
   margin-left: 0; }
