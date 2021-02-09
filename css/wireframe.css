@@ -47,6 +47,7 @@
   #navstick {
     overflow:hidden;
     z-index: 500;
+    opacity: 0.9;
 
 
 
@@ -346,7 +347,7 @@ h3, .h3 {
   font-size: 1.75rem; }
 
 h4, .h4 {
-  font-size: 1.5rem; }
+  font-size: 2rem; }
 
 h5, .h5 {
   font-size: 1.25rem; }
@@ -492,7 +493,7 @@ pre {
     .container {
       max-width: 720px; }
     #smallnavbar {
-      display: none; !
+      display: none; 
       }}
   @media (min-width: 992px) {
     .container {
@@ -1651,7 +1652,6 @@ textarea.form-control {
   white-space: nowrap;
   vertical-align: middle;
   user-select: none;
-  border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
@@ -6321,7 +6321,7 @@ a.text-dark:hover, a.text-dark:focus {
   color: #333 !important; }
 
 .text-muted {
-  color: #6c757d !important; }
+  color: #6c757d ; }
 
 .text-black-50 {
   color: rgba(0, 0, 0, 0.5) !important; }
